@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTENIDO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+
+<nav>
+<ul>
+<li><a href="index.html">INICIO</a></li>
+<li><a href="content.html">CONTENIDO</a></li>
+<li><a href="ejemplos.html">EJEMPLOS</a></li>
+</nav>
+
+</header>
+
+<h1>¿QUE ES GIT Y COMO FUNCIONA?</h1>
+
+<p>En el mundo del software, puedes llevar un historial, así como en un diario. No es algo que se crea en un día por arte de magia. El software tiene una vida, las aplicaciones tienen una vida y tienen versiones. En esa vida le añadimos nuevas funciones, corregimos errores, agregamos nuevas versiones. Para registrar el día a día de un proyecto se usa un sistema de control de versiones (VCS), un software que permite trabajar de forma colaborativa.
+
+    </p>
+
+
+    <p>Cada desarrollador que está involucrado en el proyecto puede agregar los trabajos, cambios y correcciones que aporta al proyecto. Este sistema de control de versiones tiene un historial de todo lo que se ha hecho en el proyecto y quiénes lo han hecho. Este sistema de control de versiones es GIT.</p>
+
+
+ <img src="https://edteam-media.s3.amazonaws.com/blogs/original/be4eefe2-3d90-45a5-afc1-d47025004d3f.png" alt="">
+    <h3>GIT
+       </h3>
+<p>Es un sistema de control de versiones: un software que permite registrar el historial de cambios de un proyecto.</p>
+
+<h3>REPOSITORIOS</h3>
+
+<p>Es todo proyecto que está siendo seguido por GIT, ya tiene un historial de GIT en el que se están registrando sus cambios.</p>
+
+<h3>COMMIT</h3>
+<p>Es cada uno de los cambios registrados en el historial de GIT. Cada uno de los desarrolladores manda los commits de los cambios que ha hecho. No es automático, cada desarrollador tiene que decir qué hizo y por qué.</p>
+
+<h3>RAMAS</h3>
+<p>Son nuevos caminos que toma el proyecto. La rama principal se llama máster y es donde está el proyecto que sale a producción. </p>
+<p>Es una copia exacta del proyecto, pero está separada. De este modo, si algo se rompe en ese proyecto, no comprometes al proyecto original</p>
+
+<h3>CLON</h3>
+<p>Es una copia exacta del repositorio. Cuando un programador se integra a un equipo de trabajo lo primero que debe hacer es clonar el repositorio en su equipo local. De esa manera cada miembro del equipo tiene un clon del repositorio en su equipo local</p>
+
+<h3>FORK</h3>
+<p> fork es un proyecto totalmente diferente que se crea a partir de otro. Cada vez que vemos que un proyecto es un fork de otro es porque se basó en lo que se había trabajado en el otro proyecto.</p>
+
+<h2>¿Por qué GIT es el sistema de control de versiones más usado en el mundo?</h2>
+
+<ul class="list">
+<li>Es distribuido: Cada uno de los desarrolladores tiene una copia idéntica del repositorio en su equipo local. </li>
+<li>Tiene ramas y fusiones: Ramificaciones que toma el proyecto para no comprometer a la rama principal</li>
+<li>Integridad de datos: GIT agrega una suma de comprobación a cada uno de sus archivos y de los commits</li>
+</ul>
+
+<img src="https://edteam-media.s3.amazonaws.com/blogs/original/05837503-ce91-45f3-8e85-4275c8b047ee.png" alt="">
+
+<h2>Flujo de trabajo</h2>
+<h3>Básico</h3>
+<p>El desarrollador va a trabajar en un proyecto, así que crea un repositorio. <br>Hay dos maneras de crearlo: <br>
+
+    git init: Si es un repositorio nuevo, desde cero. <br>
+    
+    git clone: Si es un repositorio que ya existe. <br>
+    
+    Git es un sistema de control de versiones que se utiliza para gestionar proyectos de software. Se inicia un nuevo repositorio con `git init` y se trabaja en repositorios existentes con `git clone`. Los cambios se registran con commits, que representan funcionalidades específicas o correcciones de errores. Antes de hacer un commit, se utilizan `git add` para seleccionar los cambios que se incluirán. Finalmente, los commits se realizan con `git commit` y se agrega un mensaje descriptivo.</p>
+
+    <h3>Trabajo en equipo</h3>
+
+<p>Cuando se trabaja en equipo, se suelen utilizar dos ramas principales en Git: Master, donde está el proyecto principal, y Dev, donde se realiza el trabajo. Desde Dev, cada desarrollador crea ramas nuevas para sus tareas específicas. Una vez completadas, estas ramas se integran al proyecto principal mediante un proceso llamado merge. Durante el merge pueden surgir conflictos, los cuales deben ser resueltos antes de la integración. En flujos más avanzados, se utilizan sistemas de integración continua con pruebas automatizadas para verificar conflictos. Una vez resueltos los conflictos, se hace merge y se integra el trabajo en Dev y luego en Master, manteniendo así el proyecto actualizado. Finalmente, el proyecto se envía a producción, asegurando que funcione correctamente. 💪</p>
+
+    <h2>Herramientas en GIT</h2>
+<ul class="list">
+<li>Línea de comandos</li>
+<li>Repositorios en la nube</li>
+<li>IDEs y editores</li>
+
+</ul>
+<img src="https://edteam-media.s3.amazonaws.com/blogs/original/cb7d0cdf-c0fb-48e6-8a20-94062ecfa8f5.jpeg" alt="">
+</body>
+</html>
